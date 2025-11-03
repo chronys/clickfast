@@ -1,10 +1,16 @@
 body {
   font-family: sans-serif;
   font-size: 1.5rem;
+  background-color: orange;
+
 }
 
 h1 {
   font-family: fantasy;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(0, 183, 255);
+  text-align: center;
 }
 
 #container {
@@ -50,3 +56,31 @@ h1 {
   font-size: 3rem;
   font-weight: bold;
 }
+
+
+
+.container {
+  text-align: center;
+}
+
+.click {
+  padding: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+
+}
+.clif {
+  margin-left: 43vw;
+}
+.score, .timer {
+  margin-left: 2vw;
+}
+
+.reset {
+  padding: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
